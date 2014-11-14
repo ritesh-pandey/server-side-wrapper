@@ -1,0 +1,166 @@
+.dashboard-heading, .recent-investor-monitor-heading {
+    font-size: 13px;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, Verdana;
+    text-align: center;
+}
+.dashboard-heading {
+    padding-top: 12px;
+    padding-bottom: 21px;
+}
+.recent-investor-monitor-heading {
+    padding: 20px 0 6px;
+}
+.header {
+    border-bottom: 1px solid #979797;
+    padding: 0 0 10px;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+}
+.download-code-link {
+    background-color: #594883;
+    border-radius: 2px;
+    color: #fff;
+    float: right;
+    font-size: 13px;
+    margin: 5px 0;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+#wrapper {
+    width: 768px;
+    margin: 0 auto;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana;
+    font-size: 14px;
+    padding: 5px;
+}
+#container {
+    border: 1px solid;
+    border-color: #979797;
+    padding: 0 1%;
+}
+/* Target section CSS begins */
+
+.company-monitor-table {
+    width: 100%;
+    margin-bottom: 2%;
+}
+.company-monitor-table th {
+    color: #888888;
+    font-size: 11px;
+    text-align: left;
+    border-bottom: 1px solid;
+    border-color: #979797;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, Verdana;
+}
+.company-monitor-table .target-reach {
+    padding-left: 18px;
+}
+.company-monitor-table tr td, .company-monitor-table tr th {
+    height: 42px;
+    font-size: 12px;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 19px;
+}
+.company-monitor-table .chart-wrap {
+    vertical-align: bottom;
+}
+.company-monitor-table tr td:last-child, .company-monitor-table tr th:last-child {
+    text-align: right;
+}
+.company-monitor-table tbody tr:nth-child(even) td {
+    background-color: #F9F9F9;
+}
+/* Target section CSS ends */
+
+/* Revenue section CSS begins */
+
+#revenueMonitorTable {
+    width: 102%;
+    text-align: center;
+    border-bottom: 1px dashed;
+    border-color: #979797;
+    margin-left: -1%;
+}
+#revenueMonitorTable thead {
+    height: 3%;
+}
+#revenueMonitorTable tr:first-child {
+    color: #888888;
+    font-size: 12px;
+}
+#revenueMonitorTable tr td {
+    padding: 0.75%;
+}
+#revenueMonitorTable tr:last-child {
+    padding: 2.5%;
+}
+.revenue-monitor-table-right-border-cell {
+    border-right: 1px dashed;
+    border-color: #979797;
+}
+.revenue-monitor-table-number {
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, Verdana;
+    font-size: 30px;
+}
+.revenue-monitor-table-number-definition {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Verdana;
+    font-size: 14px;
+}
+/* Revenue section CSS ends */
+
+/* Investor section CSS begins */
+
+#investorMonitorTable {
+    width: 100%;
+    margin-bottom: 2%;
+}
+#investorMonitorTable tr td {
+    padding-bottom: 0.75%;
+    padding-top: 2.25%;
+    text-align: right;
+}
+#investorMonitorTable tr:first-child td {
+    color: #888888;
+    font-size: 12px;
+    border-bottom: 1px solid;
+    border-color: #979797;
+    text-align: center;
+    font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, Verdana;
+}
+#investorMonitorTable tr td:first-child {
+    text-align: left;
+    padding-left: 1%;
+}
+.investor-chart-container {
+    padding-left: 3%;
+    vertical-align: middle;
+}
+.investor-monitor-table-column-low {
+    color: #DD0017;
+}
+.investor-monitor-table-column-high {
+    color: #7ED321;
+}
+#investor-monitor-table .table-virtual-row > td {
+    padding: 0;
+}
+.investment-end-date {
+    padding-left: 28px;
+}
+/* Investor section CSS ends */
+
+.footer {
+    padding: 15px 0;
+    font-family: Verdana;
+    font-size: 10px;
+    color: #666666;
+    line-height: 15px;
+}
+.footer a {
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 1px solid #333333;
+}
